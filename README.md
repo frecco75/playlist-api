@@ -18,10 +18,10 @@ An example of a minimal video model : (You might add extra fields to do this pro
 
 ```
 video {
-id : the id of the video,
-title: the title of the video
-thumbnail : The url of the video
-...
+  id : the id of the video,
+  title: the title of the video
+  thumbnail : The url of the video
+  ...
 }
 ```
 
@@ -29,9 +29,9 @@ An example of a minimal playlist model : (You might add extra fields to do this 
 
 ```
 playlist {
-id : The id of the playlist,
-name : The name of the playlist
-......
+  id : The id of the playlist,
+  name : The name of the playlist
+  ......
 }
 ```
 
@@ -41,18 +41,18 @@ The API must support the following use cases:
 
 ```
 {
-"data" : [
-{
-"id": 1,
-"title": "video 1"
-....
-},
-{
-"id": 2,
-"title": "video 2"
-}
-....
-]
+  "data" : [
+    {
+      "id": 1,
+      "title": "video 1"
+      ....
+    },
+    {
+      "id": 2,
+      "title": "video 2"
+    }
+    ....
+  ]
 }
 ```
 
@@ -60,19 +60,18 @@ The API must support the following use cases:
 
 ```
 {
-"data" : [
-{
-"id": 1,
-"name": "playlist 1"
-....
-},
-{
-"id": 2,
-"name": "playlist 2"
-}
-….
-
-]
+  "data" : [
+    {
+      "id": 1,
+      "name": "playlist 1"
+      ....
+    },
+    {
+      "id": 2,
+      "name": "playlist 2"
+    }
+    ….
+  ]
 }
 ```
 
@@ -82,10 +81,10 @@ The API must support the following use cases:
 
 ```
 {
-"data" : {
-"id": 1,
-"name": "playlist 1"
-}
+  "data" : {
+    "id": 1,
+    "name": "playlist 1"
+  }
 }
 ```
 
@@ -97,18 +96,18 @@ The API must support the following use cases:
 
 ```
 {
-"data" : [
-{
-"id": 1,
-"title": "video 1 from playlist 2"
-....
-},
-{
-"id": 2,
-"title": "video 2 from playlist 2"
-}
-....
-]
+  "data" : [
+    {
+      "id": 1,
+      "title": "video 1 from playlist 2"
+      ....
+    },
+    {
+      "id": 2,
+      "title": "video 2 from playlist 2"
+    }
+    ....
+  ]
 }
 ```
 
